@@ -37,12 +37,26 @@ body{
 	font-weight: 400;
 	color: #8e8e8e;
 }
+.btn_common{
+	padding: 10px;
+	font-family: Roboto-Medium;
+	font-weight: 500;
+	width: 200px;
+	height: 50px;
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	text-transform: uppercase;
+	transition: .33s ease-in-out;
+}
+.btn_common:hover{
+	background-color: #333333 !important;
+	border: 1px solid #333333 !important;
+}
 /*Common CSS end*/
 
 /*Header CSS start*/
 header{
 	padding: 12px 0;
-	border: 1px solid #8e8e8e;
 }
 .custom_nav{}
 .logo{
@@ -92,3 +106,56 @@ header{
 	border: 0 !important;
 }
 /*Header CSS end*/
+
+/*Banner CSS start*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner_content{}
+.caro_ind{
+	margin: 0 0 16px 20px;
+	right: 505px;
+}
+.caro_ind [data-bs-target]{
+	width: 3px;
+    height: 15px;
+    background-color: #333333;
+}
+.caro_inner{}
+.caro_item{
+	color: #ffffff;
+}
+.caro_item h1{
+	padding: 200px 0 50px;
+	font-family: Lato-Bold;
+	font-size: 60px;
+	font-weight: 700;
+}
+.caro_item p{
+	padding: 0 12px 0 0;
+	line-height: 30px;
+}
+.btn_banner{
+	margin: 50px 0 150px;
+}
+.caro_item button i{
+	padding: 0 0 0 20px;
+}
+.carousel_prev,.carousel_next{
+	top: 90%;
+	width: 5%;
+	color: #333333;
+	text-transform: uppercase;
+}
+.carousel_prev:hover,.carousel_prev:focus,.carousel_next:hover,.carousel_next:focus {
+    color: #333333;
+    opacity: 1;
+}
+.carousel_prev{}
+.carousel_next{
+	right: 76%;
+}
+/*Banner CSS end*/
