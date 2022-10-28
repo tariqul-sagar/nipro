@@ -40,7 +40,10 @@ body{
 /*Common CSS end*/
 
 /*Header CSS start*/
-header{}
+header{
+	padding: 12px 0;
+	border: 1px solid #8e8e8e;
+}
 .custom_nav{}
 .logo{
 	font-family: Lato-Medium;
@@ -61,8 +64,31 @@ header{}
 }
 .btn_dd{
 	color: #8e8e8e;
+	border: 0 !important;
 }
 .btn_dd::after{
 	display: none;
+}
+.dd_menu {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #8e8e8e;
+    border-radius: 5px;
+}
+.dd_menu[data-bs-popper] {
+    top: 61px;
+    left: -360px;
+    margin-top: 0;
+}
+.dd_input{
+	border: 0;
+}
+.dd_input:focus {
+    color: #8e8e8e;
+    border-color: transparent;
+    box-shadow: none;
+}
+.dd_search{
+	border: 0 !important;
 }
 /*Header CSS end*/
