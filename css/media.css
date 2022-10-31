@@ -121,6 +121,21 @@
 	    text-align: justify;
 	}
 	/*About end*/
+
+	/*Recent start*/
+	.recent{
+		padding-bottom: 70px;
+	}
+	.tab_menu {
+	    margin-top: 30px;
+	}
+	.recent_nav{
+	    margin: 0 -18px 0;
+	}
+	.recent_title {
+	    font-size: 16px;
+	}
+	/*Recent end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -243,6 +258,18 @@
 	    padding: 0;
 	}
 	/*About end*/
+
+	/*Recent start*/
+	.recent{
+		padding-bottom: 70px;
+	}
+	.tab_menu {
+	    margin-top: 30px;
+	}
+	.recent_nav{
+	    margin: 0 -18px 0;
+	}
+	/*Recent end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -356,6 +383,15 @@
 	    padding: 0 12px;
 	}
 	/*About end*/
+
+	/*Recent start*/
+	.recent{
+		padding-bottom: 80px;
+	}
+	.tab_menu {
+	    margin-top: 40px;
+	}
+	/*Recent end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
