@@ -1,5 +1,11 @@
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+	.btn_common{
+		padding: 5px;
+		width: 135px;
+		height: 40px;
+		font-size: 15px;
+	}
 	/*Header start*/
 	.logo{
 		font-size: 22px;
@@ -19,10 +25,42 @@
 	    left: -6px;
 	}
 	/*Header end*/
+
+	/*Banner start*/
+	.slider_item{
+		margin-top: 100px;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+	.slider_h2 {
+	    font-size: 26px;
+	}
+	.slider_p {
+	    margin: 25px 0;
+	    padding: 0;
+	    line-height: 22px;
+	}
+	.slide_icon {
+	    margin-left: 3px;
+	    font-size: 15px;
+	}
+	.banner_footer{
+		text-align: center;
+	}
+	.s_prev, .s_next {
+	    font-size: 15px;
+	}
+	/*Banner end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
+	.btn_common{
+		padding: 5px;
+		width: 135px;
+		height: 40px;
+		font-size: 15px;
+	}
 	/*Header start*/
 	.logo{
 		font-size: 26px;
@@ -42,10 +80,41 @@
 	    left: 220px;
 	}
 	/*Header end*/
+
+	/*Banner start*/
+	.slider_item{
+		margin-top: 100px;
+		margin-bottom: 100px;
+		text-align: center;
+	}
+	.slider_h2 {
+	    font-size: 38px;
+	}
+	.slider_p {
+	    margin: 30px 0;
+	    padding: 0;
+	}
+	.slide_icon {
+	    margin-left: 3px;
+	    font-size: 15px;
+	}
+	.banner_footer{
+		text-align: center;
+	}
+	.s_prev, .s_next {
+	    font-size: 15px;
+	}
+	/*Banner end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+	.btn_common{
+		padding: 5px;
+		width: 135px;
+		height: 40px;
+	}
 	/*Header start*/
 	.logo{
 		font-size: 26px;
@@ -64,15 +133,55 @@
 	    left: 298px;
 	}
 	/*Header end*/
+
+	/*Banner start*/
+	.slider_item{
+		margin-top: 120px;
+		margin-bottom: 120px;
+	}
+	.slider_h2 {
+	    font-size: 45px;
+	}
+	.slider_p {
+	    margin: 30px 0;
+	    padding-right: 170px;
+	}
+	.slide_icon {
+	    margin-left: 3px;
+	    font-size: 16px;
+	}
+	/*Banner end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px) {
+	.btn_common{
+		width: 155px;
+		height: 45px;
+	}
 	/*Header start*/
 	.menu ul li a {
 	    margin: 0 12px;
 	}
 	/*Header end*/
+
+	/*Banner start*/
+	.slider_item{
+		margin-top: 150px;
+		margin-bottom: 150px;
+	}
+	.slider_h2 {
+	    font-size: 50px;
+	}
+	.slider_p {
+	    margin: 35px 0;
+	    padding-right: 0px;
+	}
+	.slide_icon {
+	    margin-left: 10px;
+	    font-size: 16px;
+	}
+	/*Banner end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
