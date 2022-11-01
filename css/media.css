@@ -136,6 +136,32 @@
 	    font-size: 16px;
 	}
 	/*Recent end*/
+
+	/*Choose start*/
+	.choose{
+		margin-bottom: 70px;
+	}
+	.choose_content{
+		margin-top: 35px;
+		text-align: center;
+	}
+	.choose_icon{
+		display: block;
+	}
+	.choose_icon i {
+	    font-size: 36px;
+	}
+	.choose_h2 {
+	    margin: 5px 0 0;
+	    font-size: 16px;
+	    display: block;
+	}
+	.choose_p {
+	    margin: 15px 0;
+	    padding: 0 15px;
+	    line-height: 24px;
+	}
+	/*Choose end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -270,6 +296,26 @@
 	    margin: 0 -18px 0;
 	}
 	/*Recent end*/
+
+	/*Choose start*/
+	.choose{
+		margin-bottom: 70px;
+	}
+	.choose_content{
+		margin-top: 40px;
+	}
+	.choose_icon i {
+	    font-size: 38px;
+	}
+	.choose_h2 {
+	    margin: 5px 0 0;
+	    font-size: 17px;
+	}
+	.choose_p {
+	    margin: 22px 0;
+	    line-height: 24px;
+	}
+	/*Choose end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -392,6 +438,26 @@
 	    margin-top: 40px;
 	}
 	/*Recent end*/
+
+	/*Choose start*/
+	.choose{
+		margin-bottom: 80px;
+	}
+	.choose_content{
+		margin-top: 50px;
+	}
+	.choose_icon i {
+	    font-size: 40px;
+	}
+	.choose_h2 {
+	    margin: 5px 0 0;
+	    font-size: 17px;
+	}
+	.choose_p {
+	    margin: 22px 0;
+	    line-height: 24px;
+	}
+	/*Choose end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
