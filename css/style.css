@@ -548,3 +548,29 @@ header{
 	background-color: #f8f8f8;
 }
 /*Price end*/
+
+
+/*Call to action start*/
+.niprocall{
+	padding: 25px 0;
+	background-color: #f8f8f8;
+}
+.call_p{
+	margin: 10px 0 0;
+	font-family: Lato-Regular;
+	font-size: 18px;
+	font-weight: 600;
+	color: #333333;
+	text-transform: uppercase;
+}
+.call_btn{
+	text-align: right;
+}
+.btn_call{
+	border: 1px solid #333333;
+	background-color: transparent;
+}
+.btn_call:hover {
+	color: #ffffff !important;
+}
+/*Call to action end*/

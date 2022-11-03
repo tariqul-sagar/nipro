@@ -216,6 +216,22 @@
 		width: 180px;
 	}
 	/*Price end*/
+
+	/*Call start*/
+	.niprocall {
+	    text-align: center;
+	}
+	.call_p{
+		font-size: 15px;
+	}
+	.call_btn{
+		margin-top: 15px;
+		text-align: center;
+	}
+	.btn_call{
+		font-size: 14px;
+	}
+	/*Call end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -414,6 +430,16 @@
 		width: 180px;
 	}
 	/*Price end*/
+
+	/*Call start*/
+	.niprocall {
+	    text-align: center;
+	}
+	.call_btn{
+		margin-top: 15px;
+		text-align: center;
+	}
+	/*Call end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -600,6 +626,12 @@
 		width: 180px;
 	}
 	/*Price end*/
+
+	/*Call start*/
+	.call_p {
+	    margin: 8px 0 0;
+	}
+	/*Call end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
