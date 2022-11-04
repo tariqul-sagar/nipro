@@ -574,3 +574,85 @@ header{
 	color: #ffffff !important;
 }
 /*Call to action end*/
+
+
+/*Testimonial CSS start*/
+.testimonial{
+	padding: 100px 0;
+}
+.test_inner{
+	padding: 35px 20px;
+	border: 1px solid #d9d9d9;
+}
+.test_item{}
+.test_comment{}
+.test_img{
+	position: relative;
+}
+.test_img img{
+	width: 100%;
+}
+.test_icon{
+	padding: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.test_icon i{
+	font-size: 30px;
+	color: #333333;
+}
+.text_content{}
+.test_h2{
+	margin: 0;
+	font-family: Lato-Bold;
+	font-size: 18px;
+	font-weight: 700;
+	color: #333333;
+	text-transform: uppercase;
+}
+.test_p1{
+	margin: 15px 0;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.test_h3{
+	margin: 0;
+	font-size: 18px;
+	color: #333333;
+}
+.test_p2{
+	margin: 35px 0;
+	line-height: 27px;
+}
+.test_p3{
+	margin: 0;
+	line-height: 27px;
+}
+.test_button{
+	padding: 40px 20px;
+	font-weight: 600;
+	writing-mode: vertical-rl;
+	border: 1px solid #d9d9d9;
+	display: inline-flex;
+	transition: .33s ease-in;
+}
+.test_prev,.test_next{
+	margin: 0;
+	text-transform: uppercase;
+}
+.test_prev{
+	padding-bottom: 130px;
+}
+.test_next{
+	padding-top: 130px;
+}
+.line{}
+.test_button span{
+	padding: 2px 0;
+	color: #333333;
+}
+.test_prev:hover, .test_next:hover{
+	color: #333333;
+}
+/*Testimonial CSS end*/
