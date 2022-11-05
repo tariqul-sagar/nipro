@@ -713,3 +713,102 @@ header{
 	color: #ffffff !important;
 }
 /*Contact CSS end*/
+
+
+/*Footer CSS start*/
+footer{
+	background-image: url(../images/footer.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.footer_top{
+	padding: 0 0 100px;
+}
+.footer_title{
+	color: #333333;
+}
+.footer_h1{
+	font-weight: 600;
+}
+.footer_p1{
+	margin: 35px 0;
+	padding: 0 30px;
+	color: #ffffff;
+	text-align: center;
+}
+.footer_social_icon{
+	text-align: center;
+}
+.footer_social_icon ul{
+	margin: 0;
+}
+.footer_social_icon ul li{
+	margin: 0 10px;
+	width: 50px;
+	height: 50px;
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	transition: .33s ease-in-out;
+}
+.href_icon{}
+.href_icon i{
+	margin-top: 10px;
+	font-size: 26px;
+	color: #ffffff;
+	transition: .33s ease-in-out;
+}
+.footer_social_icon ul li:hover{
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+}
+.footer_social_icon ul li:hover .href_icon i{
+	color: #333333;
+}
+
+footer hr{
+	margin: 0;
+	width: 100%;
+	height: 2px;
+	background-color: #8e8e8e;
+}
+.footer_bottom{
+	padding: 30px 0;
+}
+.footer_left{
+	text-align: left;
+}
+.f_left_p{
+	margin: 0;
+}
+.f_left_p a{
+	color: #8e8e8e;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .33s ease-in-out;
+}
+.f_left_p a:hover{
+	color: #ffffff;
+}
+.footer_right{
+	text-align: right;
+}
+.footer_right ul{
+	margin: 0;
+}
+.footer_right ul li{
+	margin: 0 30px;
+}
+.footer_right ul li:last-child{
+	margin-right: 0;
+}
+.footer_right ul li a{
+	color: #8e8e8e;
+	text-decoration: none;
+	transition: .33s ease-in-out;
+}
+.footer_right ul li a:hover{
+	color: #ffffff;
+}
+/*Footer CSS end*/

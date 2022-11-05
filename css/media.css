@@ -317,6 +317,44 @@
 		padding: 0 10px 10px;
 	}
 	/*Contact form end*/
+
+	/*Footer start*/
+	.footer_top {
+	    padding: 0 0 50px;
+	}
+	.footer_p1 {
+	    padding: 0;
+	}
+	.footer_social_icon ul li {
+	    margin: 0 5px;
+	    width: 30px;
+	    height: 30px;
+	}
+	.href_icon i {
+	    margin-top: 6px;
+	    font-size: 16px;
+	}
+	.footer_left{
+		text-align: center;
+	}
+	.f_left_p {
+	    font-size: 14px;
+	}
+	.f_left_p a{
+		color: #ffffff;
+	}
+	.footer_right{
+		margin-top: 10px;
+		text-align: center;
+	}
+	.footer_right ul li {
+	    margin: 0 5px;
+	}
+	.footer_right ul li a {
+	    font-size: 14px;
+	    color: #ffffff;
+	}
+	/*Footer end*/
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -599,6 +637,40 @@
 	    width: 90%;
 	}
 	/*Contact form end*/
+
+	/*Footer start*/
+	.footer_top {
+	    padding: 0 0 60px;
+	}
+	.footer_p1 {
+	    padding: 0 40px;
+	}
+	.footer_social_icon ul li {
+	    margin: 0 8px;
+	    width: 35px;
+	    height: 35px;
+	}
+	.href_icon i {
+	    margin-top: 7px;
+	    font-size: 18px;
+	}
+	.footer_left{
+		text-align: center;
+	}
+	.f_left_p {
+	    font-size: 14px;
+	}
+	.footer_right{
+		margin-top: 10px;
+		text-align: center;
+	}
+	.footer_right ul li {
+	    margin: 0 5px;
+	}
+	.footer_right ul li a {
+	    font-size: 14px;
+	}
+	/*Footer end*/
 }
 
 /*Medium devices (tablets, 768px and up)*/
@@ -839,6 +911,36 @@
 	    width: 85%;
 	}
 	/*Contact form end*/
+
+	/*Footer start*/
+	.footer_top {
+	    padding: 0 0 70px;
+	}
+	.footer_p1 {
+	    padding: 0 40px;
+	}
+	.footer_social_icon ul li {
+	    margin: 0 8px;
+	    width: 35px;
+	    height: 35px;
+	}
+	.href_icon i {
+	    margin-top: 7px;
+	    font-size: 18px;
+	}
+	.f_left_p {
+	    font-size: 13px;
+	}
+	.footer_right{
+		margin-top: -4px;
+	}
+	.footer_right ul li {
+	    margin: 0 5px;
+	}
+	.footer_right ul li a {
+	    font-size: 14px;
+	}
+	/*Footer end*/
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -934,6 +1036,15 @@
 		font-size: 27px;
 	}
 	/*Contact form end*/
+
+	/*Footer start*/
+	.footer_top {
+	    padding: 0 0 80px;
+	}
+	.footer_p1 {
+	    padding: 0;
+	}
+	/*Footer end*/
 }
 
 /*Extra large devices (desktops, 992px and up)*/
